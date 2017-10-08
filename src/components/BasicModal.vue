@@ -3,6 +3,7 @@
     <div class="modal" v-if="isShow">
       <div class="modal__bg"></div>
       <div class="modal__content">
+        <p>BasicModal</p>
         <button @click="hide">closeModal</button>
       </div>
     </div>
